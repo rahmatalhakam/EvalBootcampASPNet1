@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace EvalBootcampASPNet1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/weather/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
